@@ -2,7 +2,7 @@
 
 Full-page passport reader named national id scanner is a document information collection device with rich functions and novel design. It has industry-leading image processing, OCR text recognition, artificial intelligence, radio frequency identification (RFID), etc.
 
-## SDK Introduction
+## SDK wIntroduction
 
 Sinosecu (Wintone) OCR Passport Scanner OCR SDK for third-party systems integration and development,
 including OCR lib, Demo, API interfaces documentations, Sample program, 
@@ -16,4 +16,4 @@ Email：Liubing@sinosecu.com.cn
 
 ## Website
 
- https://www.sinosecu.com.cn/
+ https://www.sinosecu.com.cn/?lang=en_US
