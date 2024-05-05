@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WindowsApplication1">
+</Property><Property Name="Solution File" Value="F:\工作\升级\Samples\VB_识别\WindowsApplication1.sln">
+</Property><Property Name="User Options File" Value="F:\工作\升级\Samples\VB_识别\WindowsApplication1.suo">
+</Property><Property Name="Date" Value="2012年10月24日">
+</Property><Property Name="Time" Value="10:10">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WindowsApplication1.sln" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsApplication1.suo" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1.suo">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\vbdemo.vbproj" Description="Project file successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\vbdemo.vbproj">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\vbdemo.vbproj.user" Description="Project user file successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\vbdemo.vbproj.user">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\Form1.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\Form1.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\Form1.Designer.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\AssemblyInfo.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Application.Designer.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Resources.Designer.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Settings.Designer.vb" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\app.config" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\app.config">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\ClassDiagram1.cd" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Application.myapp" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Settings.settings" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\Form1.resx" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\My Project\Resources.resx" Description="File successfully backed up as F:\工作\升级\Samples\VB_识别\Backup\WindowsApplication1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\vbdemo.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="vbdemo" Source="WindowsApplication1\vbdemo.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsApplication1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WindowsApplication1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="vbdemo" Source="WindowsApplication1\vbdemo.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

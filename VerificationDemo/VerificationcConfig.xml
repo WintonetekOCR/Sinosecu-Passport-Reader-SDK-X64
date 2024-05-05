@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Config>
+    <BasicSet>
+        <!--exe所在目录的相对路径-->
+        <DllPath value="\\..\\lib"/>
+    </BasicSet>
+</Config>

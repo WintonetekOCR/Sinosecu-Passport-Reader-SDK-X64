@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Config>
+    <BasicSet>
+        <!--0:ch 1:en-->
+        <Language value="1"/>
+        <Version value="6820"/>
+        <Update value="0"/>
+        <CloseUpdate value="1"/>
+        <NoUpdate value="1"/>
+        <ProductType value="2"/>
+        <!--exe所在目录的相对路径-->
+        <DllPath value="/../lib/"/>
+    </BasicSet>
+    <SetConfig>
+        <isCallBack value="0"/>
+        <isProgressBar value="0"/>
+        <isSafty value="0"/>
+        <nSafty value="0"/>
+        <isWARN value="0"/>
+        <isFace value="0"/>
+        <ImageSrc value="2"/>
+        <Threshold value="0.66"/>
+        <isUpLoad value="0"/>
+        <Report value="0"/>
+        <ReportUpload value="0"/>
+        <isCheckOut value="0"/>
+        <RecogAnImage value="0"/>
+        <OcrTemplateType value="0"/>
+        <IsCaptureImage value="0"/>
+        <WholeImageSize value="2"/>
+        <FingerPrintData value="0"/>
+        <bSaveImageRaw value="0"/>
+        <ImgSavePath path="C:/Program Files/Sinosecu/Sinosecu Passport ReaderX64/Demo/picture/"/>
+        <SefdefineCardType id="-1" name=""/>
+        <DefineCustomBtn/>
+    </SetConfig>
+    <TabTitle>
+        <Elem english="MRZ" chinese="机读区(MRZ)"/>
+        <Elem english="VIZ" chinese="视读区(VIZ)"/>
+        <Elem english="RFID" chinese="RFID信息"/>
+        <Elem english="Parsed Data" chinese="解析数据"/>
+        <Elem english="Raw Data" chinese="十六进制数据"/>
+        <Elem english="Security Checks" chinese="安全特征"/>
+        <Elem english="IR B900 Ink" chinese="IR B900 Ink"/>
+        <Elem english="MRZ Comparison" chinese="MRZ比对"/>
+        <Elem english="Portrait Comparison" chinese="头像比对"/>
+        <Elem english="BAC" chinese="BAC"/>
+        <Elem english="Items" chinese="项目"/>
+        <Elem english="Contents" chinese="内容"/>
+        <Elem english="Length(byte)" chinese="长度(byte)"/>
+        <Elem english="Time(ms)" chinese="时间(ms)"/>
+        <Elem english="Status" chinese="状态"/>
+        <Elem english="UV Dull check" chinese="紫光迟钝"/>
+        <Elem english="BarCode" chinese="条码"/>
+        <Elem english="Page Portrait" chinese="版面头像"/>
+        <Elem english="RFID Portrait" chinese="芯片头像"/>
+        <Elem english="Ultraviolet Fiber" chinese="紫外纤维"/>
+        <Elem english="Copy check" chinese="复印件判别"/>
+        <Elem english="RFID Result" chinese="芯片结果"/>
+    </TabTitle>
+</Config>

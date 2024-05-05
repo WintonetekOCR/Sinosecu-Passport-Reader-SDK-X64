@@ -1,0 +1,6 @@
+[Welcome] Log.cpp 2024-04-29 16:35:04 : === Start logging ===
+[DEBUG]   Log.cpp 2024-04-29 16:35:04 : ReadDataWareHouseInfo enter.
+[DEBUG]   Log.cpp 2024-04-29 16:35:04 : setdoc before.
+[DEBUG]   Log.cpp 2024-04-29 16:35:04 : LOG init finished.
+[DEBUG]   Log.cpp 2024-04-29 16:35:39 : enter CheckUVFiberDL
+[DEBUG]   Log.cpp 2024-04-29 16:35:39 : CCheckUVFiberDL::Process

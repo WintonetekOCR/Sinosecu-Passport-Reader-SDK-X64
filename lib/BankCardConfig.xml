@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BANKCARD>
+	<CBankCardTemplate KernelType="GPU">
+		<vecDLKernelType>
+			<!--cardnumber CPU: 11,2;GPU:11,0; -->
+			<CDLKernelType FieldName="CardNum" nMainIndex="11" nSubIndex="5"/>
+			<!--valid date CPU: 11,1;GPU:11,1; -->
+			<CDLKernelType FieldName="ValidTo" nMainIndex="11" nSubIndex="5"/>
+			<!--valid date CPU: 11,1;GPU:11,1; -->
+			<CDLKernelType FieldName="Name" nMainIndex="11" nSubIndex="5"/>
+		</vecDLKernelType>
+	</CBankCardTemplate>
+</BANKCARD>

@@ -1,0 +1,272 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\VCDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VCDemo.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VCDEMO_DIALOG DIALOGEX 0, 0, 356, 317
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Wintone"
+FONT 9, "Arial", 400, 0, 0x0
+BEGIN
+    CTEXT           "设置证件类型",IDC_STATIC_CARD_TYPE,21,90,53,10
+    GROUPBOX        "操作",IDC_STATIC_OPERATIONS,7,7,324,171
+    GROUPBOX        "结果",IDC_STATIC_RESULT,7,186,325,120
+    PUSHBUTTON      "采集并识别",IDC_BTN_RECOG_IMG_IN_MEMORY,34,127,85,14
+    PUSHBUTTON      "加载识别核心",IDC_BTN_LOAD_KERNAL,34,68,85,14
+    EDITTEXT        IDC_EDIT_RESULT,13,199,185,102,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    GROUPBOX        "采集图像设置",IDC_STATIC_SPECIAL_USE,161,18,161,152
+    PUSHBUTTON      "设置自定义采集尺寸",IDC_BTN_SET_USER_DEFINE_IMG_SIZE,198,81,70,14
+    PUSHBUTTON      "设置",IDC_BTN_SET_ACQUIRE_IMG_RESOLUTION,270,121,35,13
+    PUSHBUTTON      "释放识别核心",IDC_BTN_UNLOAD_KERNEL,34,148,85,14
+    GROUPBOX        "识别调用流程",IDC_STATIC_GENERAL_OPTION,21,16,110,154
+    CTEXT           "证件尺寸类型",IDC_STATIC_CARD_TYPE2,24,108,48,10
+    EDITTEXT        IDC_EDIT_CARD_TYPE,75,87,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCAN_SIZE_TYPE,74,107,52,14,ES_AUTOHSCROLL
+    CTEXT           "UserID:",IDC_STATIC_USER_ID,24,32,34,10
+    EDITTEXT        IDC_EDIT_USER_ID,60,30,67,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IMAGE_WIDTH,211,44,46,12,ES_AUTOHSCROLL
+    LTEXT           "图像宽",IDC_STATIC,175,45,35,12
+    EDITTEXT        IDC_EDIT_IMAGE_HEIGHT,210,62,46,12,ES_AUTOHSCROLL
+    LTEXT           "图像高",IDC_STATIC,174,63,35,12
+    EDITTEXT        IDC_EDIT_HORI_RESOLUTION,214,121,46,12,ES_AUTOHSCROLL
+    LTEXT           "图像分辨率",IDC_STATIC,174,123,37,12
+    GROUPBOX        "设置分辨率",IDC_STATIC,167,109,148,30
+    GROUPBOX        "设置图像宽高",IDC_STATIC,167,33,148,67
+    LTEXT           "英寸/1000",IDC_STATIC,267,45,37,11
+    LTEXT           "英寸/1000",IDC_STATIC,266,63,37,11
+    CTEXT           "DllPath:",IDC_STATIC_DLLPATH,25,50,33,10
+    EDITTEXT        IDC_EDIT_DLLPATH,59,49,67,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "自定义图像采集",IDC_BTN_ACIMAGE,194,145,82,14
+    LTEXT           "",IDC_STATIC_RESULTDESCRIPTION,228,199,87,101,WS_BORDER,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_VCDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 349
+        VERTGUIDE, 34
+        VERTGUIDE, 119
+        VERTGUIDE, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 310
+        HORZGUIDE, 121
+        HORZGUIDE, 199
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_VCDEMO_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About VCDemo"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "VCDemo, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "VCDemo.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "VCDemo.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About VCDemo..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\VCDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
